@@ -30,7 +30,7 @@ namespace Model
         {
             set
             {
-                if (value < 25)
+                if (value < 20)
                     throw new InvalidOperationException("!");
                 _electricityConsumptionPer100km = value;
             }
