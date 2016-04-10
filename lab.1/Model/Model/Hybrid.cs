@@ -52,7 +52,7 @@ namespace Model
             get { return _powerOfBattery; }
         }
         /// <summary>
-        /// объем бака
+        /// Объём бака
         /// </summary>
         private int _volumeOfTheTank;
         /// <summary>
