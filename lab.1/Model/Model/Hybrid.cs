@@ -129,7 +129,7 @@ namespace Model
         {
             set
             {
-                if (value < 0)
+                if (value < 1)
                     throw new InvalidOperationException("!");
                 _distance = value;
             }
