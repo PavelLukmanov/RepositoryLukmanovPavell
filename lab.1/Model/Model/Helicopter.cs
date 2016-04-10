@@ -53,7 +53,7 @@ namespace Model
             }
         }
         /// <summary>
-        /// расстояние
+        /// Пройденное расстояние
         /// </summary>
         private int _distance;
         /// <summary>
