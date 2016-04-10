@@ -20,7 +20,7 @@ namespace Model
         /// </summary>
         int DateOfManufacture { get; set; }
         /// <summary>
-        /// Пробег
+        /// Пробег транспортного средства
         /// </summary>
         int Distance { get; set; }
         /// <summary>

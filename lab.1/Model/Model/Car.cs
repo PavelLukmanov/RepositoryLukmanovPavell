@@ -113,7 +113,7 @@ namespace Model
         /// Метод расчета расхода топлива
         /// </summary>
         /// <param name="Distance"> Дистанция</param>
-        /// <returns> Расход топлива</returns>
+        /// <returns> Расход топлива машин</returns>
         public int GoTheDistance(int Distance)
         {
             return TheCurrentAmountOfFuel * 100 / Distance;
