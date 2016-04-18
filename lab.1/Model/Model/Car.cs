@@ -26,7 +26,7 @@ namespace Model
         }
 
         /// <summary>
-        /// Объем бака
+        /// Объем бака машины
         /// </summary>
         private  int _volumeOfTheTank;
         /// <summary>
