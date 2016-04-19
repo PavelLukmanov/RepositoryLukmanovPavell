@@ -20,7 +20,7 @@ namespace Model
            set
             {
                 if (value < 0)
-                    throw new InvalidOperationException("!");
+                    throw new InvalidOperationException();
                 _fuelConsumptionPer100km = value;
             } 
         }
@@ -42,7 +42,7 @@ namespace Model
             set
             {
                 if (value < 0)
-                    throw new InvalidOperationException("!");
+                    throw new InvalidOperationException();
                 _volumeOfTheTank = value;
             }
         }
@@ -59,7 +59,7 @@ namespace Model
             set
             {
                 if (value < 0)
-                    throw new InvalidOperationException("!");
+                    throw new InvalidOperationException();
                 _theCurrentAmountOfFuel = value;
             }
         }
@@ -88,7 +88,7 @@ namespace Model
             set
             {
                 if (value < 0)
-                    throw new InvalidOperationException("!");
+                    throw new InvalidOperationException();
                 _dateOfManufacture = value;
             }
         }
@@ -105,7 +105,7 @@ namespace Model
             set
             {
                 if (value < 0)
-                    throw new InvalidOperationException("!");
+                    throw new InvalidOperationException();
                 _distance = value;
             }
         }
