@@ -40,7 +40,7 @@ namespace Model
         public int _dateOfManufacture;
 
         /// <summary>
-        /// год выпуска
+        /// год выпуска вертолёта
         /// </summary>
         public int DateOfManufacture
         {
